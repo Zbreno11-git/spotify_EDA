@@ -59,15 +59,15 @@
 
 ### Top 5 Genres
 
-![Top Genres](images/top_5_genres.png)
+![Top Genres](top_5_genres.png)
 
 ### Most Common Words in Song Titles
 
-![Common Words](images/common_words.png)
+![Common Words](common_words.png)
 
 ### Top 20 Songs by Popularity
 
-![Top Songs](images/top_20_songs.png)
+![Top Songs](top_20_songs.png)
 
 ---
 
