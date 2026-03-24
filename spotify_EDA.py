@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df_spotify = pd.read_csv('/Users/luanabreno/Downloads/archive/spotify_songs.csv')
+df_spotify = pd.read_csv('spotify_songs.csv')
 
     #Summary:
 print(df_spotify.head())
