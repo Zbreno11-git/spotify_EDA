@@ -1,7 +1,6 @@
 # 🎧 Spotify Data Analysis
 
 > Exploratory data analysis project using real Spotify data to uncover trends in music and popularity.
-> # 🎧 Spotify Data Analysis
 
 ## ⚙️ Tech Stack
 
