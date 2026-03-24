@@ -16,7 +16,7 @@ print(f'\nAverage BPM: {df_spotify['tempo'].mean():.2f}')
 
     #Key Distribution:
     #Put actual Keys instead of numbers
-tons = {0: 'C', 1: 'Db', 3: 'D', 4: 'Eb', 5: 'E', 6: 'F', 7: 'Gb', 8: 'G', 9: 'Ab', 10: 'A', 11: 'B'}
+tons = {0: 'C', 1: 'Db', 2: 'D', 3: 'Eb', 4: 'E', 5: 'F', 6: 'Gb', 7: 'G', 8: 'Ab', 9: 'A', 10: 'Bb', 11: 'B'}
 df_spotify['key'] = df_spotify['key'].replace(tons)
     #Create a new DataFrame to show the distribution
 percent_key = lambda df, coluna: pd.DataFrame({
@@ -27,8 +27,8 @@ new_dis_df = percent_key(df_spotify, 'key')
 print(new_dis_df)
 
     #Average popularity and top 10 songs:
-    #Discovering ani Nulls/Nan
-print(df_spotify.track_popularity.isnull().values.any())
+    #Discovering any Nulls/Nan
+#print(df_spotify.track_popularity.isnull().values.any())
     #Avg Popul.
 print(f'\nAverage popularity: {df_spotify.track_popularity.mean():.2f}')
     #Top 10 songs:
